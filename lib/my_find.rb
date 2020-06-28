@@ -6,5 +6,5 @@ def my_find(collection)
     i = i + 1 
     yield(collection[i])
   end
-
+binding.pry
 end
